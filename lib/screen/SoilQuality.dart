@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'Captures.dart';
 
 class SoilQuality extends StatelessWidget {
-  const SoilQuality({Key? key}) : super(key: key);
-
+  const SoilQuality({Key? key,required this.camera}) : super(key: key);
+  final camera;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -32,7 +32,7 @@ class SoilQuality extends StatelessWidget {
                               Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                      builder: (context) => Captures()));
+                                      builder: (context) => Captures(camera: camera,)));
                             },
                             child: Icon(Icons.arrow_forward)),
                       ],

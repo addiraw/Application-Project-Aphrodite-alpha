@@ -1,13 +1,23 @@
+import 'package:camera/camera.dart';
 import 'package:farmer_app/screen/SoilQuality.dart';
 import 'package:flutter/material.dart';
 
-main(List<String> args) {
-  runApp(MyApp());
+Future<void> main(List<String> args) async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final cameras = await availableCameras();
+  final firstCamera = cameras.first;
+  print(firstCamera);
+  runApp(MyApp(
+    camera: firstCamera,
+  ));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
 
+
+  const MyApp({Key? key,
+  required this.camera}) : super(key: key);
+  final  camera;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +25,8 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              HomePage(),
+              // Text("$a")
+              HomePage(camera: camera,),
             ],
           ),
         ),
@@ -28,8 +39,8 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
-
+  const HomePage({Key? key,required this.camera} ) : super(key: key);
+  final camera;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -39,7 +50,7 @@ class HomePage extends StatelessWidget {
         TextButton(
             onPressed: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => SoilQuality()));
+                  MaterialPageRoute(builder: (context) => SoilQuality(camera: camera,)));
             },
             child: Text("Press me"))
       ],
