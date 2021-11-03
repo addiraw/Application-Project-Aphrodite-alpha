@@ -1,6 +1,7 @@
 import 'package:camera/camera.dart';
-import 'package:farmer_app/screen/SoilQuality.dart';
 import 'package:flutter/material.dart';
+
+import 'screen/Landing.dart';
 
 Future<void> main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -38,22 +39,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key,required this.camera} ) : super(key: key);
-  final camera;
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-        child: Column(
-      children: [
-        Text("Second Page"),
-        TextButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => SoilQuality(camera: camera,)));
-            },
-            child: Text("Press me"))
-      ],
-    ));
-  }
-}
