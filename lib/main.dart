@@ -1,6 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-
+import 'back4app.dart';
 import 'screen/Landing.dart';
 
 Future<void> main(List<String> args) async {
@@ -8,6 +8,7 @@ Future<void> main(List<String> args) async {
   final cameras = await availableCameras();
   final firstCamera = cameras.first;
   print(firstCamera);
+  Back4App.initPase();
   runApp(MyApp(
     camera: firstCamera,
   ));
@@ -24,7 +25,9 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               // Text("$a")
-              HomePage(camera: camera,),
+              HomePage(
+                camera: camera,
+              ),
             ],
           ),
         ),
