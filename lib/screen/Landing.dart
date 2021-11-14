@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
           width: 100,
           height: 50,
         ),
-        Image.asset('/lib/assets/first.png'),
+        Image.asset('lib/wetherIcon.png'),
         Text(
           "Service Provided",
           style: TextStyle(

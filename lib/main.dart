@@ -14,11 +14,8 @@ Future<void> main(List<String> args) async {
 }
 
 class MyApp extends StatelessWidget {
-
-
-  const MyApp({Key? key,
-  required this.camera}) : super(key: key);
-  final  camera;
+  const MyApp({Key? key, required this.camera}) : super(key: key);
+  final camera;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -38,4 +35,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
