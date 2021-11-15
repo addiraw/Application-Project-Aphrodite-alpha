@@ -5,9 +5,10 @@ import 'package:farmer_app/main.dart';
 import 'dart:async';
 import 'dart:io';
 
+import 'capturedPreview.dart';
 
 class Captures extends StatefulWidget {
-  const Captures({Key? key,required this.camera}) : super(key: key);
+  const Captures({Key? key, required this.camera}) : super(key: key);
   // final camera;
   final CameraDescription camera;
   @override
@@ -24,12 +25,13 @@ class _CapturesState extends State<Captures> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-     home: TakePictureScreen(
+      home: TakePictureScreen(
         camera: widget.camera,
       ),
     );
   }
 }
+
 // A screen that allows users to take a picture using a given camera.
 class TakePictureScreen extends StatefulWidget {
   const TakePictureScreen({
@@ -103,9 +105,18 @@ class TakePictureScreenState extends State<TakePictureScreen> {
             final image = await _controller.takePicture();
 
             // If the picture was taken, display it on a new screen.
+            // await Navigator.of(context).push(
+            //   MaterialPageRoute(
+            //     builder: (context) => DisplayPictureScreen(
+            //       // Pass the automatically generated path to
+            //       // the DisplayPictureScreen widget.
+            //       imagePath: image.path,
+            //     ),
+            //   ),
+            // );
             await Navigator.of(context).push(
               MaterialPageRoute(
-                builder: (context) => DisplayPictureScreen(
+                builder: (context) => PreviewPan(
                   // Pass the automatically generated path to
                   // the DisplayPictureScreen widget.
                   imagePath: image.path,
@@ -137,10 +148,7 @@ class DisplayPictureScreen extends StatelessWidget {
       // The image is stored as a file on the device. Use the `Image.file`
       // constructor with the given path to display the image.
       body: Column(
-        children: [
-          Image.file(File(imagePath)),
-          Text("${imagePath}")
-        ],
+        children: [Image.file(File(imagePath)), Text("${imagePath}")],
       ),
     );
   }
