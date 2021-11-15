@@ -17,11 +17,61 @@
   - **Working on Cloud Function**
   - **Parse server**
   - **RealTime DataBase Mangement RDBMS**
-  - 1.**Future Application :-**
-  - Machine Learnig
-  **Other etc.**
+  - **Future Application :-**
+    - Machine Learning
+    - Image Processing
+    - Video Processing
+    - Data Manipulation
+  - **Other etc.**
  ##  Flutter
  
+   
+   
+   
+   
+   
+
+# Title of the Idea :
+
+# 2.0 Business Details
+## a. Project Abstract
+
+## b. Market Analysis
+
+### Customer Need Identification
+
+### worthy and user friendly and marketable.
+
+### Our system can fulfill this need:
+
+### Serviceable Addressable Market (SAM) Identification & Justification
+
+## Big data clients
+
+### Advertisement providers:
+
+### Product Differentiation w.r.t. Competition & Justification
+
+
+# 3.0 Technical Details
+## a. Product Brief
+## b. Proposed Design
+
+### a. App user interface
+### b. Block diagram of system
+### c. Biagram of subsystem
+### e Powering Circuit
+
+## c. Innovativeness of the Proposed Solution
+
+## d. Impact of the proposed solution
+
+   
+   
+   
+   
+   
+ ### 
 - [x] Working
 - [ ] Publish
 - [ ] Add delight to the experience when see :tada:
