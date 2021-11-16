@@ -31,40 +31,34 @@
    
    
 
-# Title of the Idea :
+Title of the Idea :
 
-# 2.0 Business Details
-## a. Project Abstract
+Business Details:
 
-## b. Market Analysis
+Project Abstract:
+Market Analysis:
 
-### Customer Need Identification
+Customer Need Identification.
+worthy and user friendly and marketable.
+Our system can fulfill this need:
+Serviceable Addressable Market (SAM) Identification & Justification.
 
-### worthy and user friendly and marketable.
+Big data clients.
+Advertisement providers:
+Product Differentiation w.r.t. Competition & Justification.
 
-### Our system can fulfill this need:
+Technical Details:
 
-### Serviceable Addressable Market (SAM) Identification & Justification
+Product Brief:
+Proposed Design:
 
-## Big data clients
+App user interface
+Block diagram of system
+Biagram of subsystem
+Powering Circuit
 
-### Advertisement providers:
-
-### Product Differentiation w.r.t. Competition & Justification
-
-
-# 3.0 Technical Details
-## a. Product Brief
-## b. Proposed Design
-
-### a. App user interface
-### b. Block diagram of system
-### c. Biagram of subsystem
-### e Powering Circuit
-
-## c. Innovativeness of the Proposed Solution
-
-## d. Impact of the proposed solution
+Innovativeness of the Proposed Solution.
+Impact of the proposed solution.
 
    
    
