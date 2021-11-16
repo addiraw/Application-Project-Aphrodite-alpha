@@ -33,10 +33,10 @@
 
 - Title of the Idea :
 
-- Business Details:
+- Business Details :
 
-  - Project Abstract:
-  - Market Analysis:
+  - Project Abstract :
+  - Market Analysis :
 
     - Customer Need Identification.
     - worthy and user friendly and marketable.
@@ -45,22 +45,22 @@
     - Identification & - Justification.
 
     - Big data clients.
-    - Advertisement providers:
+    - Advertisement providers :
     - Product Differentiation w.r.t. Competition & 
     - Justification.
 
 - Technical Details:
 
-  - Product Brief:
-  - Proposed Design:
+  - Product Brief :
+  - Proposed Design :
 
     - App user interface
     - Block diagram of system
     - Biagram of subsystem
     - Powering Circuit
 
-  - Innovativeness of the Proposed Solution.
-  - Impact of the proposed solution.
+  - Innovativeness of the Proposed Solution :
+  - Impact of the proposed solution :
 
 
 - [x] Working
