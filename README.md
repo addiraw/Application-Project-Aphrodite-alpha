@@ -85,4 +85,4 @@
 
 <hr>
 
-*:mailbox_with_no_mail:[contact developer](www.linkedin.com/in/addiraw)*
+*:mailbox_with_no_mail: [contact developer](www.linkedin.com/in/addiraw)*
