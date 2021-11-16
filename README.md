@@ -83,6 +83,6 @@
 - [ ] Publish
 - [ ] Congrates :tada:
 
+<hr>
 
-
-Any Fluttre Developer can contact me  @github/addiraws
+*[:mailbox_with_no_mail:contact developer](www.linkedin.com/in/addiraw)*
