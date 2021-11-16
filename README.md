@@ -1,6 +1,6 @@
 Material health check Application
 
-  >Application is developed for the consideration of the >machine learning advancedment in the field of soil.
+  >Application is developed for the consideration of the machine learning advancedment in the field of soil.
 
 - Soil Health Check Up
 - Air Health Check Up
@@ -60,8 +60,16 @@ Material health check Application
   - Impact of the proposed solution :
 
 
-- [x] Working
+- [x] Started
+- [ ] Team Building
+- [ ] Working
+- [ ] Role Assign
 - [ ] Publish
-- [ ] Add delight to the experience when see :tada:
+- [ ] Congrates :tada:
 
 - Any Fluttre Developer can contact me
+
+
+
+
+@github/addiraws
