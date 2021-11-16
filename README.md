@@ -1,15 +1,32 @@
-Material health check Application
+# Material health check Application
 
-  >Application is developed for the consideration of the machine learning advancedment in the field of soil.
-  Soil Health Check Up
-  Air Health Check Up
+> Application is developed for the consideration of the machine learning advancedment in the field of soil.
+> analsis for poor farmer who can only affored one smartphone as their resource. 
+> Mobile application can bring him on this platform.
+<!-- 
+```diff
+- hello
+- dfd
+``` -->
+
+**Focus On**
+
+  
+![](https://via.placeholder.com/15/003c15/000000?text=+)  *Air Health Check Up*         `ongoing`
+
+![](https://via.placeholder.com/15/9b7653/000000?text=+)  *Soil Health Check Up*        `upcoming`
+
+![](https://via.placeholder.com/15/d4f1f9/000000?text=+)  *Water Health Check Up*       `upcoming`
+
 <!-- ![soil](https://d2r55xnwy6nx47.cloudfront.net/uploads/2021/07/Soil2880x1620_Lede.jpg) -->
 <div style='display:inline-block; padding:20px; margin:200px'>
+
 <img src='https://d2r55xnwy6nx47.cloudfront.net/uploads/2021/07/Soil2880x1620_Lede.jpg' width='300px' height='250px'>
 <img src='https://ec.europa.eu/environment/air/quality/legislation/images/air.jpg' width='300px' height='250'>
+
 </div>
 
-- Work Flow Details
+- ##  Technology Stack
   - [Back4app](www.back4app.com)
     - Cloud Function
     - Parse server
@@ -27,9 +44,9 @@ Material health check Application
    
    
 
-- Title of the Idea :
+- ## Title of the Idea :
 
-- Business Details :
+- ##  Business Details :
 
   - Project Abstract :
   - Market Analysis :
@@ -45,7 +62,7 @@ Material health check Application
     - Product Differentiation w.r.t. Competition & 
     - Justification.
 
-- Technical Details:
+- ##  Technical Details:
 
   - Product Brief :
   - Proposed Design :
@@ -55,8 +72,8 @@ Material health check Application
     - Biagram of subsystem
     - Powering Circuit
 
-  - Innovativeness of the Proposed Solution :
-  - Impact of the proposed solution :
+ - ##  Innovativeness of the Proposed Solution :
+ - ##  Impact of the proposed solution :
 
 
 - [x] Started
@@ -66,9 +83,6 @@ Material health check Application
 - [ ] Publish
 - [ ] Congrates :tada:
 
-- Any Fluttre Developer can contact me
 
 
-
-
-@github/addiraws
+Any Fluttre Developer can contact me  @github/addiraws
