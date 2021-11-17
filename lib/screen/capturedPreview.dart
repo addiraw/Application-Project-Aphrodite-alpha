@@ -16,13 +16,7 @@ class PreviewPan extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
-              Text('df'),
-              SizedBox(
-                height: 30,
-              ),
               Container(
-                width: width,
-                height: height,
                 decoration: BoxDecoration(color: Colors.amberAccent),
                 child: Image.file(File(imagePath)),
               ),
@@ -30,16 +24,18 @@ class PreviewPan extends StatelessWidget {
                   // style: ,
                   onPressed: () {},
                   child: Container(
+                    
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
+                      
                       border: Border.all(color: Colors.black38, width: 5),
-                      borderRadius: BorderRadius.circular(50),
+                      borderRadius: BorderRadius.circular(30),
                     ),
                     child: Text(
                       'Send',
                       style: TextStyle(
                           fontFamily: 'sans-serif',
-                          fontSize: 50,
+                          fontSize: 30,
                           fontStyle: FontStyle.normal,
                           fontWeight: FontWeight.w700,
                           color: Color.fromARGB(113, 23, 34, 34)),
