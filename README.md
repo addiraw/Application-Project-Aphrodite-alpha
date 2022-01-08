@@ -3,11 +3,6 @@
 > Application is developed for the consideration of the machine learning advancedment in the field of soil.
 > analsis for poor farmer who can only affored one smartphone as their resource. 
 > Mobile application can bring him on this platform.
-<!-- 
-```diff
-- hello
-- dfd
-``` -->
 
 **Focus On**
 
